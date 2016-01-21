@@ -1,6 +1,5 @@
-// From github the sequence of commands are used to
-// retrieve information from the source directory
-// and pull files to the new repository
+// Pulls data files currently stored in local directory 
+// and moves files to new repository in github
 
 1/ goto directory location
 
@@ -15,3 +14,5 @@
 6/ git remote add origin https:// [github URL reposoitory location]
 
 7/ git push -u origin master		: pushs the original to repository
+
+8/ git log				: checks the directory log
