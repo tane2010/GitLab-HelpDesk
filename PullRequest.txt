@@ -1,0 +1,17 @@
+// From github the sequence of commands are used to
+// retrieve information from the source directory
+// and pull files to the new repository
+
+1/ goto directory location
+
+2/ git init				:initialise repository
+
+3/ git add *				: grabs everything in the directory
+
+4/ git status				: checks the file status
+
+5/ git commit -m "msg"			: displays a message
+
+6/ git remote add origin https:// [github URL reposoitory location]
+
+7/ git push -u origin master		: pushs the original to repository
